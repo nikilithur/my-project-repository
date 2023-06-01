@@ -1,0 +1,50 @@
+h1 {
+  color: blue;
+}
+.container {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-color: white;
+}
+.separation {
+  border: white solid;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: #fbf0eb;
+}
+h3 {
+  color: floralwhite;
+}
+h4 {
+  color: floralwhite;
+  font-size: 10px;
+}
+.currentcityandtemp {
+  border: white solid;
+  border-radius: 20px;
+  box-sizing: content-box;
+  box-shadow: #fbf0eb 0px 8px 8px 0;
+}
+
+.currentcityandtemp:hover {
+  background-color: #8fbed3;
+}
+
+p {
+  color: #caab9b;
+  font-weight: bold;
+}
+
+.input-group {
+  border: #fbf0eb 2px;
+  border-radius: 15px;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+    <title>What's the Temperature</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-8">
+
+
+
+
+
+                <br />
+                <header>
+                    <div class="currentcityandtemp">
+                        <h1 id="current-city">
+
+                            Accra
+                        </h1>
+
+                        <h2 id="current-temp">
+                            🌦<br />
+                            20°C
+                        </h2>
+
+                    </div>
+                </header>
+
+
+
+                <br />
+                <br />
+
+                <p>Next Five Days</p>
+
+                <div class="container text-center">
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="separation">
+                                Sat<br />
+                                29 <br />
+                                <br />
+                                ☀️ <br />
+                                <strong> 32°C </strong> / 24°C
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="separation">
+                                Sun<br />
+                                30<br />
+                                <br />
+                                🌦 <br />
+                                <strong> 29
+                                    °C </strong> / 28°C
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="separation">
+                                Mon<br />
+                                1<br />
+                                <br />
+                                ☀️ <br />
+                                <strong> 32°C </strong> / 28°C
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="separation">
+                                Tue<br />
+                                2<br />
+                                <br />
+                                ☀️ </br>
+                                <strong> 32°C </strong> / 30°C
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="separation">
+                                Wed<br />
+                                3<br />
+                                <br />
+                                ⛈ </br>
+                                <strong> 30°C </strong> / 24°C
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-4">
+
+                <h3> Hello Nikita!</h3>
+                <h4 id="todays-date"> Today is Friday, 28th April 2023 <br /> 14:30</h4>
+
+                <br />
+
+
+
+
+                <form id="search-form">
+                    <div class="input-group">
+                        <input type="search" class="form-control" id="city-input" placeholder="Type city name">
+                        <button id="current-location-button" class="btn btn-outline-secondary" type="button">Current
+                            City</button>
+                        <button class="btn btn-outline-secondary" type="submit">My Cities</button>
+                    </div>
+                </form>
+
+
+                <br />
+                <br />
+                <h3> My Cities </h3>
+                <div class="container text-center">
+                    <div class="row row-cols-2">
+                        <div class="col">
+                            <div class="separation">
+                                London
+                                <br />
+                                ☁<br />
+                                21°C
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="separation"> Cape Town
+                                <br />
+                                ⛅️<br />
+                                12°C
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="separation">New York
+                                <br />
+                                ☁️<br />
+                                19°C
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="separation">Lagos
+                                <br />
+                                ☀️<br />
+                                30°C
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="src/index.js"></script>
+    </div>
+</body>
+
+</html>
